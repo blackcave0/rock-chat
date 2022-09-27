@@ -4,9 +4,9 @@
 const socket = io()
 let name;
 // for prompt 
-/* do {
+do {
     name = prompt('Plese enter your name')
-} while (!name) */
+} while (!name)
 
 // getting text area
 
