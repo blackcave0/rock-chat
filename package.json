@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": ">> Create NPM project\r     [.] Crate Index,Css, Js Files\r     [.] Install dependancies. express, nodemon(dev dep.)\r     [.] Create a express server (server.js)\r     [.] FrontEnd Part\r     [.] Install socket.io, Setup socket.io in server.js and client client.js\r     [.] Client send message logic in client.js\r     [.] Recieve message on server and broadcast to all clients\r ]",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2"
+  }
+}

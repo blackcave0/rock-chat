@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <!-- <h1>How are you</h1> -->
+    <section class="chat__section">
+        <div class="brand">
+            <img src="rocket.png" alt="Logo.png">
+            <h1>WhatsApp</h1>
+        </div>
+
+        <div class="message__area">
+           <!--  <div class="incoming message">
+                <h4>Incoming</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sit.</p>
+            </div>
+            <div class="incoming message">
+                <h4>Incoming</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sit.</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Outgoing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sit.</p>
+            </div> -->
+        </div>
+
+        <div class="user__input">
+            <input id="textarea" type="text" cols="30" rows="1" placeholder="Write a message" autofocus ></input>
+
+            <button id="sendBtn">Send</button>
+        </div>
+    </section>
+
+    <!-- THIS IS CLIENT SIDE LIBRARY -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
